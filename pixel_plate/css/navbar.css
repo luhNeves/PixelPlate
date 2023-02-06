@@ -1,0 +1,56 @@
+
+.navbar-pp {
+    background-color: rgb(119, 139, 80);
+    padding: 15px 10px;
+    display: flex;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.navlogo {
+    width: 500px;
+    height: auto;
+}
+
+.navlinks-pp {
+    color: white;
+    font-size: 40px;
+    font-family: 'DotGothic16', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 700px;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.navitem-pp {
+    margin-left: 70px;
+}
+
+.menu_btn {
+    border: none;
+    background-color: inherit;
+    font-size: 50px;
+}
+
+.menu_btn i{
+    color: white;
+    cursor: pointer;
+}
+
+.menu{
+    position: absolute;
+    right: 45px;
+    margin-top: 35px;
+}
+
+.scrolled {
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+    position: fixed;
+}
+
+.scrolled > * {
+    color: rgb(119, 139, 80);
+}
